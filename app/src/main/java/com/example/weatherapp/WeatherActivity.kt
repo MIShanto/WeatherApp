@@ -1,9 +1,8 @@
-package com.example.apicall
+package com.example.weatherapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
-import android.location.Geocoder
 import android.util.Log
 import android.view.View
 import android.widget.Button

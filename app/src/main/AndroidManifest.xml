@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.apicall">
+    package="com.example.weatherapp">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -15,10 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.APICall">
         <activity
-            android:name=".WeatherActivity"
+            android:name="com.example.weatherapp.WeatherActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.weatherapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
